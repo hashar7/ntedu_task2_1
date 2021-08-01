@@ -39,9 +39,9 @@
     - Поле профиля  
     - Поле группы  
     
-Напишите `SerializeMyClassToBePersisted.java`, который создает
-экземпляр класса `MyClassToBePersisted` и сериализует его в файл в
-своем основном методе.  
-Напишите `DeserializeMyClassToBePersisted.java`, который
-считывает сериализованный файл и десериализует его в экземпляр
-класса `MyClassToBePersisted` в своем основном методе.
+    Напишите `SerializeMyClassToBePersisted.java`, который создает
+    экземпляр класса `MyClassToBePersisted` и сериализует его в файл в
+    своем основном методе.  
+    Напишите `DeserializeMyClassToBePersisted.java`, который
+    считывает сериализованный файл и десериализует его в экземпляр
+    класса `MyClassToBePersisted` в своем основном методе.
