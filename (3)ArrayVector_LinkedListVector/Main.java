@@ -21,6 +21,8 @@ public class Main {
         ArrayVector a2 = (ArrayVector) ois.readObject();
         System.out.println("Object uploaded from file: " + a2.toString());
         System.out.println("Are they equal? : " + a1.equals(a2));
+        fin.close();
+        ois.close();
 
         /*------------------------------------------------------------------------------------------------------------*/
 
@@ -39,6 +41,8 @@ public class Main {
         LinkedListVector<Integer> l2 = (LinkedListVector<Integer>) ois1.readObject();
         System.out.println("Object uploaded from file: " + l2.toString());
         System.out.println("Are they equal? : " + l1.equals(l2));
+        fin1.close();
+        ois1.close();
     }
 }
 
